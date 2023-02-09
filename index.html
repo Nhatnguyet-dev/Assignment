@@ -5,8 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Welcome to my world</h1>
+    <fieldset>
+        <legend>Đăng ký form</legend>
+        <form>
+            <div class="line">
+                <label>Full name: </label>
+                <input type="text" placeholder="First name">
+                <label>&nbsp;</label>
+                <input type="text" placeholder="Last name">
+            </div>
+            <div class="line">
+                <label for="">Date of birth: </label>
+                <input type="date">
+            </div>
+            <div class="line">
+                <label>Mail: </label>
+                <input type="email" placeholder="abc@gmail.com">
+            </div>
+            <div class="line">
+                <label>National</label>
+                <input id="brower">
+                <datalist id="brower">
+                    <option value="Việt Nam">
+                    <option value="Trung Quốc">
+                </datalist>
+            </div>
+        </form>
+        
+    </fieldset>
 </body>
 </html>

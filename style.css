@@ -1,0 +1,14 @@
+.line{
+    display: flex;
+}
+label{
+    width: 100px;
+}
+fieldset{
+    background-color: rgb(255, 216, 148);
+    width: 400px;
+}
+legend{
+    background-color: rgb(255, 255, 255);
+    color: rgb(102, 102, 243);
+}
